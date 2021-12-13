@@ -1,0 +1,106 @@
+@media only screen and (max-width: 27em) {
+    html {
+        font-size: 52%;
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .grid-container {
+        max-width: 60rem;
+        grid-template-columns: 1fr;
+        gap: 4rem;
+        margin: 0 6rem 6rem;
+    }
+
+    .pricy__purple {
+        height: 100%;
+    }
+
+    .pricy {
+        padding: 8rem 5rem;
+    }
+
+    .svg-2 {
+        top: -13rem;
+        right: -18rem;
+    }
+
+    .svg-1 {
+        display: none;
+    }
+
+    .pricy__border__right {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .pricy__border__left {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    .btn-card {
+        font-family: 'Montserrat', sans-serif;
+
+    }
+}
+
+@media only screen and (max-width: 23em) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .pricy {
+        padding: 3rem;
+    }
+
+    .pricy-price {
+        font-size: 6rem;
+    }
+
+    .dollar {
+        font-size: 2.8rem;
+    }
+
+    .btn-card {
+        font-size: 1.3rem;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+}
+
+@media only screen and (max-width: 20em) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .pricy {
+        padding: 5rem 3rem;
+    }
+
+    .grid-container {
+        margin: 0 4rem 6rem;
+        gap: 5rem;
+    }
+
+    .svg-2 {
+        top: -rem;
+        right: -20rem;
+    }
+}
